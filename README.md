@@ -8,7 +8,7 @@ copy "C:\Users\*\anaconda3\Library\bin\libiomp5md.dll" .
 copy "C:\Users\*\anaconda3\Library\bin\libmmd.dll" .
 copy "C:\Users\*\anaconda3\Library\bin\svml_dispmd.dll" .
 
-#Others
+# Others
 pyinstaller --onefile --windowed --exclude-module PyQt6 --exclude-module PySide6 interface.py
 
 pyinstaller --onefile --console --debug=all --clean --exclude-module PyQt6 --exclude-module PySide6 interface.py
